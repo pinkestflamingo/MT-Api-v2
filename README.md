@@ -86,6 +86,12 @@ game:AddGlobalGetHook("FireServer", function(self, __namecall, ...)
   return __namecall(self, ...)
 end)
 ```
+#### AddPropertyEmulator
+```lua
+--> Creates a fake environment, whenever a property is read/written from the client
+--> it will change those values on a separate environment.
+game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("WalkSpeed")
+```
 ### Gui Environment
 ##### Upon using these features make sure to include this code before loading the API:
 ```lua
