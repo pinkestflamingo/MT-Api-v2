@@ -69,7 +69,7 @@ end)
 ```
 #### AddGlobalSetHook
 ```lua
---> Spoofs 
+--> Spoofs a property upon __newindex but applies for all Instances.
 game:AddGlobalSetHook("WalkSpeed", function(self, value)
   if value == 0 then
     return 16
