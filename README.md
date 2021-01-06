@@ -10,7 +10,7 @@
   <p align="center">
     Exploiting Roblox has never been as simple!
     <br />
-    <a href="https://discord.gg/66ScR2EJsu"><strong>Join the Discord »</strong></a>
+    <a href="https://discord.gg/2W8Nx5zMAk"><strong>Join the Discord »</strong></a>
   </p>
 </p>
 
